@@ -2,7 +2,7 @@ describe('index.js', function() {
   describe('distanceFromHqInBlocks()', function() {
     it('returns a distance in blocks', function() {
       expect(distanceFromHqInBlocks(43)).to.equal(1);
-    });
+    }); 
 
     it('returns a distance in blocks', function() {
       expect(distanceFromHqInBlocks(50)).to.equal(8);
@@ -12,6 +12,7 @@ describe('index.js', function() {
       expect(distanceFromHqInBlocks(34)).to.equal(8);
     });
   });
+
 
   describe('distanceFromHqInFeet()', function() {
     it('returns a distance in feet', function() {
@@ -41,6 +42,7 @@ describe('index.js', function() {
     });
   });
 
+  
   describe('calculatesFarePrice(start, destination)', function() {
     it('gives customers a free sample', function() {
       expect(calculatesFarePrice(43, 44)).to.equal(0);
